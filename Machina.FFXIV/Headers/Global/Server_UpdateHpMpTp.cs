@@ -24,8 +24,8 @@ namespace Machina.FFXIV.Headers
     {
         public Server_MessageHeader MessageHeader; // 8 DWORDS
         public UInt32 CurrentHp;
-        public UInt16 Unknown1; 
         public UInt16 CurrentMp;
+        public UInt16 CurrentGp; 
 
         // removed in patch 5.2
         //public UInt16 unknown1;
